@@ -10,7 +10,7 @@
     <meta charset="utf-8" />
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Blue One Page HTML Template</title>
+    <title>Dora's African Hair Braiding</title>
     <!-- Meta Description -->
     <meta name="description" content="Blue One Page Creative HTML5 Template" />
     <meta
@@ -30,6 +30,12 @@
       rel="stylesheet"
       type="text/css"
     />
+    <!-- map css -->
+    <link rel="stylesheet" href="./css/">
+
+    <!-- map javascript -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+
 
     <!-- Fontawesome Icon font -->
     <link rel="stylesheet" href="css/font-awesome.min.css" />
@@ -129,9 +135,9 @@
                 <div class="caption-content">
                   <h2 class="animated fadeInDown">Dora Hair Braiding</h2>
                   <span class="animated fadeInDown"
-                    >Clean and Professional one page Template</span
+                    >Elevate Your Look</span
                   >
-                  <a href="#" class="btn btn-blue btn-effect">Join US</a>
+                  <a href="#contact" class="btn btn-blue btn-effect">Join US</a>
                 </div>
               </div>
             </div>
@@ -147,9 +153,9 @@
               <div class="bg-img bg-img-2"></div>
               <div class="slide-caption">
                 <div class="caption-content">
-                  <h2>BLUE Onepage HTML5 Template</h2>
-                  <span>Clean and Professional one page Template</span>
-                  <a href="#" class="btn btn-blue btn-effect">Join US</a>
+                  <h2>Experience the Beauty of Intricate Braids</h2>
+                  <span>Creative Braids for Every Occasion</span>
+                  <a href="#contact" class="btn btn-blue btn-effect">Join US</a>
                 </div>
               </div>
             </div>
@@ -165,9 +171,9 @@
               <div class="bg-img bg-img-3"></div>
               <div class="slide-caption">
                 <div class="caption-content">
-                  <h2>BLUE Onepage HTML5 Template</h2>
-                  <span>Clean and Professional one page Template</span>
-                  <a href="#" class="btn btn-blue btn-effect">Join US</a>
+                  <h2>Discover the Art of Braiding at Our Salon</h2>
+                  <span>Braids That Reflect Your Unique Style</span>
+                  <a href="#contact" class="btn btn-blue btn-effect">Join US</a>
                 </div>
               </div>
             </div>
@@ -277,7 +283,7 @@
                     hair into a braided head.
                   </p>
                 </div>
-                <a href="#" class="btn btn-border btn-effect pull-right"
+                <a href="#works" class="btn btn-border btn-effect pull-right"
                   >Read More</a
                 >
               </div>
@@ -307,8 +313,7 @@
                 </div>
                 <h3>Professional</h3>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                  Crafted Excellence: Your Hair, Our Expertise.
                 </p>
               </div>
             </div>
@@ -323,8 +328,7 @@
                 </div>
                 <h3>Style</h3>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                  Elevating Elegance: Style Statements, Tailored to You.
                 </p>
               </div>
             </div>
@@ -339,8 +343,7 @@
                 </div>
                 <h3>Quality</h3>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                  Uncompromising Quality: Your Assurance of Excellence.
                 </p>
               </div>
             </div>
@@ -356,8 +359,7 @@
 
                 <h3>Budget Friendly</h3>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                  Where Beauty Fits Your Budget: Affordable Excellence, Always.
                 </p>
               </div>
             </div>
@@ -779,9 +781,10 @@
       </section>
       <!-- end Contact section -->
 
-      <section id="google-map">
-        <div id="map-canvas" class="wow animated fadeInUp"></div>
-      </section>
+      <section id="map">
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d931498.8218157717!2d-89.87297561055973!3d44.72407276308437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8806534f1edc69a5%3A0xa2f72465d310d1d4!2sWisconsin%2C%20USA!5e0!3m2!1sen!2suk!4v1640413793657!5m2!1sen!2suk" width=100% height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>      </section>
     </main>
 
     <footer id="footer">
@@ -838,6 +841,11 @@
         </div>
       </div>
     </footer>
+    <script>
+      google.maps.importLibrary("maps");
+      google.maps.importLibrary("marker");
+      </script>
+
 
     <!-- Essential jQuery Plugins
 		================================================== -->

@@ -1,0 +1,11 @@
+.navbar-brand > img{
+    position: absolute;
+    left: 15px; /* Adjust as needed */
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px; /* Adjust as needed */
+  }
