@@ -73,7 +73,7 @@ main > section {
 
 .btn-border {
     border: 2px solid #fff;
-    color: #fff;
+    color: black;
     padding: 12px 35px;
 }
 
@@ -148,7 +148,7 @@ main > section {
 }
 
 .btn-effect:hover, .btn-effect:focus, .btn-effect:active {
-	color: #009EE3;
+	color: black;
 }
 
 .btn-effect:hover:before, .btn-effect:focus:before, .btn-effect:active:before {
@@ -512,12 +512,12 @@ h1.navbar-brand {
 ==================================================================*/
 
 #about {
-    background-color: #009EE3;
-    color: #fff;
+    background-color: #fdfa3b;
+    color: black;
 }
 
 #about h3 {
-    color: #fff;
+    color: black;
     margin: 0 0 35px;
     text-transform: uppercase;
 }
@@ -727,7 +727,7 @@ ul.external li a:hover {
 
 
 #testimonials {
-    background-image: url(../img/parallax/testimonial.jpg);
+    background-image: url(../img/parallax/african-braid-hairstyles-history.jpg);
     padding: 0;
     color: #fff;
 }
@@ -737,7 +737,7 @@ ul.external li a:hover {
 }
 
 #testimonials .overlay {
-    background-color: rgba(15,155,224, 0.78);
+    background-color: rgba(4, 132, 30, 0.78);
     padding: 70px 0 40px;
 }
 
@@ -897,7 +897,7 @@ ul.external li a:hover {
 ==================================================================*/
 
 #social {
-    background-image: url(../img/slider/banner.jpg);
+    background-image: url(../img/slider/social.webp);
     padding: 0;
 }
 
