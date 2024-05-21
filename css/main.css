@@ -891,7 +891,12 @@ ul.external li a:hover {
     color: #fff;
 }
 
-
+#price{
+    background-image: url(../img/pricebackground.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
 /*=================================================================
 	Price
 ==================================================================*/
