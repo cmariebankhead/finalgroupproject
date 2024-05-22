@@ -189,7 +189,7 @@ main>section {
 }
 
 .sec-title h2:after {
-    border-bottom: 1px solid #009ee3;
+    border-bottom: 1px solid red;
     content: "";
     display: block;
     left: 45%;
@@ -551,7 +551,7 @@ h1.navbar-brand {
 ==================================================================*/
 
 #about {
-    background-color: #fdfa3b;
+    background-color: #faae1f;
     color: black;
 }
 
@@ -631,9 +631,9 @@ h1.navbar-brand {
 }
 
 .service-item:hover .service-icon {
-    border: 3px solid #009ee3;
+    border: 3px solid red;
     margin-bottom: 20px;
-    color: #009ee3;
+    color: red;
 }
 
 .service-icon i {
@@ -781,8 +781,8 @@ ul.external li a:hover {
 }
 
 #testimonials .overlay {
-    background-color: rgba(4, 132, 30, 0.78);
-    padding: 70px 0 40px;
+    background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;
+    padding: 100px 0 120px;
 }
 
 .testimonial-item {
@@ -878,7 +878,7 @@ ul.external li a:hover {
 }
 
 .price-table.featured .value {
-    background-color: #009EE3;
+    background-color: red;
     color: #fff;
 }
 
@@ -927,7 +927,7 @@ ul.external li a:hover {
 
 .price-table.featured ul li:last-child,
 .price-table ul li:last-child:hover {
-    background-color: #009EE3;
+    background-color: red;
 }
 
 .price-table.featured ul li:last-child a,
@@ -952,8 +952,10 @@ ul.external li a:hover {
 }
 
 #social .overlay {
-    background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;
-    padding: 100px 0 120px;
+    
+    background-color: rgba(4, 132, 30, 0.78);
+    padding: 70px 0 40px;
+    
 }
 
 .social-button {
