@@ -699,6 +699,11 @@ ul.external li a:hover {
     top: 0;
 }
 
+.portfolio-item img{
+    height: 444px;px;
+    width: 669px;
+}
+
 .fancybox-skin {
     border-radius: 0;
 }
@@ -892,7 +897,7 @@ ul.external li a:hover {
 }
 
 #price{
-    background-image: url(../img/pricebackground.jpg);
+    background-color: yellow;
     background-repeat: no-repeat;
     background-size:cover;
     
