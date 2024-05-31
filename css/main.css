@@ -782,8 +782,6 @@ ul.external li a:hover {
 .testimonial-item img {
   border-radius: 50%;
   display: inline-block;
-  height: auto;
-  max-width: 100px;
 }
 
 .testimonial-item > div {
